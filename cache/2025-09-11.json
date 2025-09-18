@@ -1,0 +1,128 @@
+[
+  {
+    "campeonato": {
+      "nome": "Campeonato Islandês - Rodada  20",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/438cf305d93f5ef4fe155e5ac1b90248.svg"
+    },
+    "horario": "14:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "IA Akranes",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/779827a6cf5be463c774a3834b80cae2.png",
+      "placarCasa": "",
+      "timeFora": "Breidablik",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/8UJpfHCi5JhfRUXI2Z5FFKul8O2n5hqSWgCSW7Gk.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Copa Do Brasil - Quartas de Final",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/0CgZ9BHAJrFrnpnSqgUG8E66nzb8NhF9oJFmK5mb.png"
+    },
+    "horario": "19:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Cruzeiro",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/bc2ddceb5fae7574a1616955ff3e6344.png",
+      "placarCasa": "",
+      "timeFora": "Atlético-MG",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/427d5b92e3e9fa5bf9be94c055f32383.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "PRIME VIDEO",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/pjmhj1T6VMT4lre81hSN4K2sFYVatMGxRcDG3D4B.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Argentino - 2ª Fase - Rodada 8",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/5Xfy6R3QXW23sNCcJYXXfZfkjidmuNrUArGRBuA8.png"
+    },
+    "horario": "20:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Belgrano Cordoba",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/1YQVhMVvNXiGUHwMUTom8IuckrTTdmG1HdXzPWLn.png",
+      "placarCasa": "",
+      "timeFora": "San Martin S.J.",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/ea03d7c0af412e34f3c9cf5a93132b63.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Copa Uruguai - Oitavas de Final",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/ZdxDNN7VK4mDj6lrQTVi5iLRSbXC0TBWmwOROrFp.png"
+    },
+    "horario": "20:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Club Nacional",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/83a73a5c22aa9952e10e9b4447e5525c.png",
+      "placarCasa": "",
+      "timeFora": "Plaza Colonia",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/e93c9e26093f1ea94a8bf90769356701.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Copa Do Brasil - Quartas de Final",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/0CgZ9BHAJrFrnpnSqgUG8E66nzb8NhF9oJFmK5mb.png"
+    },
+    "horario": "21:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Botafogo",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/0c4950a285216e58387ebd7ae8e49cf1.png",
+      "placarCasa": "",
+      "timeFora": "Vasco",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/f3809186a5b461aeea5583666aad6156.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "GLOBO",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/1573418008_globo.png"
+      },
+      {
+        "canal": "SPORTV",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/Hz3KticAh1bRVvblrKfSv0k3xOQn2bYCW8kZojJC.png"
+      },
+      {
+        "canal": "GE TV",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/sVczTa3dOxGkLAvPrHiq51JSh5vG7oXdAZQdbZaK.png"
+      },
+      {
+        "canal": "PREMIERE FC",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/1573506847_pfc.png"
+      },
+      {
+        "canal": "PRIME VIDEO",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/pjmhj1T6VMT4lre81hSN4K2sFYVatMGxRcDG3D4B.png"
+      }
+    ]
+  }
+]

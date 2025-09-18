@@ -1,0 +1,476 @@
+[
+  {
+    "campeonato": {
+      "nome": "Campeonato Japonês - Rodada  29",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/5ZyCzdLrcNZiB5MbGojIYJ5Nrs1vOEWAUqWOSFgp.png"
+    },
+    "horario": "07:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Vissel Kobe",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/a898ee38b2176249c63c2f820ef053a3.png",
+      "placarCasa": "",
+      "timeFora": "Kashiwa Reysol",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/68f57ab9d32fe48054cb84a6d79f4033.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Saudita - Rodada  2",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/MVPb1a4iybDoQ9OE5h2X3qSsxzOsFGWWeto7DnVK.png"
+    },
+    "horario": "12:25",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Al-Ettifaq",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/e4d6eccfef5d2b0bcd616dda06e09c7b.png",
+      "placarCasa": "",
+      "timeFora": "Al-Ahli Jeddah",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/835168be5445b5efb8d8be6c6e39845a.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Alemão 2ª Divisão - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/OqBOXcCFhkYtuTIXphp9jKsoKFXVuJfyrDX9WDyo.png"
+    },
+    "horario": "13:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "SC Paderborn 07",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/c1a21375e484d1820cd5f1c002509e4c.png",
+      "placarCasa": "",
+      "timeFora": "VfL BOCHUM",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/84c3c54b2da7af822b062031965b7a1c.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ONEFOOTBALL",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/BmWNPxFwrIUVnJ0ZEJj46Ia9GfJKiW2dln5s8PNf.png"
+      },
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Alemão 2ª Divisão - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/OqBOXcCFhkYtuTIXphp9jKsoKFXVuJfyrDX9WDyo.png"
+    },
+    "horario": "13:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Arminia Bielefeld",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/5dd6fd02dc369095b950f0b25f35aabb.png",
+      "placarCasa": "",
+      "timeFora": "FC Magdeburg",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/05eb8405eb9ff5d986c2c12357ef6ac5.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ONEFOOTBALL",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/BmWNPxFwrIUVnJ0ZEJj46Ia9GfJKiW2dln5s8PNf.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Norueguês - Rodada  21",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/832294d27a4fcb709606dc6182299ed8.svg"
+    },
+    "horario": "14:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Bodo/Glimt",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/00b48ab4b8ff2be2a69bd8c19d84ffc0.png",
+      "placarCasa": "",
+      "timeFora": "Kristiansund BK",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/41a95e3e8a87d1e50b6b248fb5d810e3.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ONEFOOTBALL",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/BmWNPxFwrIUVnJ0ZEJj46Ia9GfJKiW2dln5s8PNf.png"
+      },
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Alemão 3ª divisão - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/OqBOXcCFhkYtuTIXphp9jKsoKFXVuJfyrDX9WDyo.png"
+    },
+    "horario": "14:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Jahn Regensburg",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/41107c4f89621f80b7192d121f2145e5.png",
+      "placarCasa": "",
+      "timeFora": "Rot-weiss Essen",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/6e7e2e73e8e27aaac93af2006e4ddcda.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "PPV ONEFOOTBALL",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/T2ixZsKnXDZvTN0zcEzULSBwauH0xh8uwtnh4wNw.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Saudita - Rodada  2",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/MVPb1a4iybDoQ9OE5h2X3qSsxzOsFGWWeto7DnVK.png"
+    },
+    "horario": "15:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Al-Ittihad FC",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/a6f1367d27479746dbddcbdaee840b11.png",
+      "placarCasa": "",
+      "timeFora": "Al-Fateh",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/7aec7e7e81bf11737dbce062affa8863.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "BANDSPORTS",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/P2iAr1ycOxGCEjRA4CHolfnDCYs2SmwvSVsJBaE5.png"
+      },
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Peruano - Apertura - 8",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/7wRoph7Lmx88YvHBIxTHY07CGZJxrP1LeB0lkhsl.png"
+    },
+    "horario": "15:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "UTC",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/eebfe80b60b1a2e1c625c915c2d9f07d.png",
+      "placarCasa": "",
+      "timeFora": "Ayacucho FC",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/efd52abbf74a6a8897554fd548a0a0c3.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "FANATIZ.COM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/I4Brwi4e7kL2yYLUmgPA6gU0LE7xI03JEz7IFJIu.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Inglês Feminino - Rodada  2",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/308JWUCeRL2kLhdYSPFK33wHpp8B8DDbW4VlvqOE.png"
+    },
+    "horario": "15:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "West Ham (F)",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/N7ljCRjnizLclD6HSUihyGybTQr4uy9B9ETitjbX.png",
+      "placarCasa": "",
+      "timeFora": "Arsenal (F)",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/Yo7eFIxYmI47vMFpY6YxCuCSOxsdZEH91peQ1ixW.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      },
+      {
+        "canal": "ESPN",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/i7sbIjLJLzV3uhgPqM4F9wNbeh3LKaHywoUKvLdk.png"
+      },
+      {
+        "canal": "DISNEY+",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/9d8oug7pYHKlNmfc5wGnX2c1J6m5xkqqd5tqilbH.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Alemão - Rodada  3",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/OqBOXcCFhkYtuTIXphp9jKsoKFXVuJfyrDX9WDyo.png"
+    },
+    "horario": "15:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Bayer Leverkusen",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/4a1fb8a3fea3f6eed7a1d14f58903a4d.png",
+      "placarCasa": "",
+      "timeFora": "Eintracht Frankfurt",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/bc0bd288651434773bff2fc2263159c6.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "SPORTV",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/Hz3KticAh1bRVvblrKfSv0k3xOQn2bYCW8kZojJC.png"
+      },
+      {
+        "canal": "CAZÉ TV",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/19lBo0KozSs2G5KT2ZgJoCCy4AqZFQn01vc6HHvQ.png"
+      },
+      {
+        "canal": "ONEFOOTBALL",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/BmWNPxFwrIUVnJ0ZEJj46Ia9GfJKiW2dln5s8PNf.png"
+      },
+      {
+        "canal": "XSPORTS",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/YNsnLtNVTtv3IXPu7gPnXoz5ykY2DH8apOYjfBFs.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Espanhol 2ª Divisão - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/HSZrHaS4WUvvcX4ukp2OthDx4RS3rtK8OYk4KFGL.png"
+    },
+    "horario": "15:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Las Palmas",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/64d88086e9c7e2debe976cf028faff37.png",
+      "placarCasa": "",
+      "timeFora": "Real Sociedad II",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/26901bf0c158f5863dfe9b85d9ba6540.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Inglês 2ª Divisão - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/308JWUCeRL2kLhdYSPFK33wHpp8B8DDbW4VlvqOE.png"
+    },
+    "horario": "16:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Ipswich",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/91bdc6876fb7ac46774bc547049e4240.png",
+      "placarCasa": "",
+      "timeFora": "Sheffield Utd",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/25ec26b8809d2bb0c0890ce6d3c7ab56.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "La Liga - Rodada  4",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/HSZrHaS4WUvvcX4ukp2OthDx4RS3rtK8OYk4KFGL.png"
+    },
+    "horario": "16:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Sevilla",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/84ecfdad232da85b99cca21703c5d9db.png",
+      "placarCasa": "",
+      "timeFora": "Elche",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/d486474e99bc4cd42228adbe4d47b621.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ESPN 3",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/hLkuAnDofAUK5fmx3Y6InkzvnawGT38ksJ2PCXWK.png"
+      },
+      {
+        "canal": "DISNEY+",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/9d8oug7pYHKlNmfc5wGnX2c1J6m5xkqqd5tqilbH.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Português - Rodada  5",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/rTAyRaoc27eZWtnc2LEhQMoc0VMMNquO0BubUze9.png"
+    },
+    "horario": "16:15",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Benfica",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/ba7c916112648742083ef9f47fb9bac9.png",
+      "placarCasa": "",
+      "timeFora": "Santa Clara",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/69e2109fa6093d0e59b1bb77df1ba939.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ESPN 4",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/wP1Vt6LjY54nr4cNVOYYb7ahJZtF5OhNYD31E48m.png"
+      },
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Brasileirão Série B - Rodada  26",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/0CgZ9BHAJrFrnpnSqgUG8E66nzb8NhF9oJFmK5mb.png"
+    },
+    "horario": "19:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Volta Redonda",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/18f77b2f399aba0b259b5df0c39e5293.png",
+      "placarCasa": "",
+      "timeFora": "Criciúma",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/c570f3ac6a24ea378265c723170e6677.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ESPN",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/i7sbIjLJLzV3uhgPqM4F9wNbeh3LKaHywoUKvLdk.png"
+      },
+      {
+        "canal": "DISNEY+",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/9d8oug7pYHKlNmfc5wGnX2c1J6m5xkqqd5tqilbH.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Campeonato Argentino - 2ª Fase - Rodada 8",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/5Xfy6R3QXW23sNCcJYXXfZfkjidmuNrUArGRBuA8.png"
+    },
+    "horario": "19:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Racing Club",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/95d13d3d1e9be2e2967b0d12b0f5c99b.png",
+      "placarCasa": "",
+      "timeFora": "San Lorenzo",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/80196c65f3d2af2cfdf38c9f60bcf1fe.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ESPN 4",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/wP1Vt6LjY54nr4cNVOYYb7ahJZtF5OhNYD31E48m.png"
+      },
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Copa Paulista - Quartas de Final",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/0CgZ9BHAJrFrnpnSqgUG8E66nzb8NhF9oJFmK5mb.png"
+    },
+    "horario": "19:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Uniao Sao Joao",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/f11898567f7c4ea79be52345fc1cc8cb.png",
+      "placarCasa": "",
+      "timeFora": "Primavera SP",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/e8709ff637d3689273d4e6a4d629ddef.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "YOUTUBE",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/1573426975_youtube.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "Brasileirão Série B - Rodada  26",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/0CgZ9BHAJrFrnpnSqgUG8E66nzb8NhF9oJFmK5mb.png"
+    },
+    "horario": "21:30",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "Coritiba",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/7e0803466477dced41a5154b3e75eec4.png",
+      "placarCasa": "",
+      "timeFora": "Goiás",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/e851d0ab9cd5a1c9050f85f36e713fd1.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "ESPN",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/i7sbIjLJLzV3uhgPqM4F9wNbeh3LKaHywoUKvLdk.png"
+      },
+      {
+        "canal": "DISNEY+ PREMIUM",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/bfqEv1Hbro7tPwOUPi0JkXdrgalepBV26b8y6p7b.png"
+      }
+    ]
+  },
+  {
+    "campeonato": {
+      "nome": "NWSL Feminina - Rodada  20",
+      "icone": "https://www.futebolnatv.com.br/upload/countries/HRPaEgO44BMJvSc2jFEfQuBKXSDlfiVKqmmnC44Y.png"
+    },
+    "horario": "23:00",
+    "status": "Agendado",
+    "partida": {
+      "timeCasa": "San Diego fave (F)",
+      "iconeCasa": "https://www.futebolnatv.com.br/upload/teams/350aa68f66ef6db52fb35bfd3cafee45.png",
+      "placarCasa": "",
+      "timeFora": "NJ/NY Gotham FC (F)",
+      "iconeFora": "https://www.futebolnatv.com.br/upload/teams/76802904178de75c6ce8e920f2cfae88.png",
+      "placarFora": ""
+    },
+    "canais": [
+      {
+        "canal": "CANAL GOAT",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/CI4LtgC6VSjEx5H7S16OGqPZLfSlATiCaCzE1fwk.png"
+      },
+      {
+        "canal": "XSPORTS",
+        "icone": "https://www.futebolnatv.com.br/upload/channel/YNsnLtNVTtv3IXPu7gPnXoz5ykY2DH8apOYjfBFs.png"
+      }
+    ]
+  }
+]
