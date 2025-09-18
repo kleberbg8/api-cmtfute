@@ -1,17 +1,20 @@
-// server.js
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
 import { getCache } from './cache.js';
 import { startScheduledJobs } from './cron-jobs.js';
-import apiV1 from './api/api.js'; // router v1
+import apiV1 from './api/api.js';
 
-const app = express();                 // <<< crie o app primeiro
+const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());                       // middlewares primeiro
+app.use(cors());
+
+// Servir arquivos estáticos (imagens baixadas)
+app.use('/public', express.static(path.join(process.cwd(), 'public')));
 
 // monta a nova API v1
-app.use('/v1', apiV1);                 // <<< só agora use o app
+app.use('/v1', apiV1);
 
 // --- funções utilitárias/legadas ---
 function getFormattedDate(date) {
