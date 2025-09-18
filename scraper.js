@@ -104,14 +104,17 @@ export async function buscarJogos(dia = 'hoje') {
         placarFora = "";
       }
 
-      const canais = [];
-      card.find('div.bcmact').each((i, el) => {
-        const nomeCanal = $(el).find('img').attr('alt');
-        const iconeCanalSrc = $(el).find('img').attr('src');
-        if (nomeCanal && iconeCanalSrc) {
-          canais.push({ canal: nomeCanal, icone: iconeCanalSrc });
-        }
-      });
+const canais = [];
+card.find('div.bcmact').each(async (i, el) => {
+  const nomeCanal = $(el).find('img').attr('alt');
+  const iconeCanalSrc = $(el).find('img').attr('src');
+  if (nomeCanal && iconeCanalSrc) {
+    // já baixa e troca a URL aqui
+    const novoIcone = await baixarImagem(iconeCanalSrc, 'channels');
+    canais.push({ canal: nomeCanal, icone: novoIcone });
+  }
+});
+
 
       if (timeCasa && timeFora) {
         jogosEncontrados.push({
