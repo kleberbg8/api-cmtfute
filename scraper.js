@@ -1,37 +1,58 @@
+// scraper.js
 import * as cheerio from 'cheerio';
 import puppeteer from 'puppeteer';
 import axios from 'axios';
 import fs from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
 
 const baseUrl = 'https://www.futebolnatv.com.br';
 const localDomain = 'https://img.futebol.cenariomt.com.br/public';
 
-// -------- utils --------
+// ---------- paths absolutos p/ salvar em ./public ----------
+const __filename = fileURLToPath(import.meta.url);
+const __dirname  = path.dirname(__filename);
+const OUT_ROOT   = path.resolve(__dirname, 'public'); // <— destino real das imagens
+
+// ---------- utils ----------
 function abs(url) {
   if (!url) return null;
   return url.startsWith('http') ? url : baseUrl + url;
 }
 
-// Função genérica para baixar e salvar imagens (mantida)
+// Função genérica para baixar e salvar imagens (mantendo seu contrato)
 async function baixarImagem(url, pasta) {
   if (!url) return null;
   try {
-    const nomeArquivo = path.basename(url);
-    const destino = path.join('public', pasta, nomeArquivo);
+    const absUrl  = abs(url).split('#')[0].split('?')[0]; // limpa query/fragments
+    const nomeArq = path.basename(absUrl);
+    const dirAlvo = path.join(OUT_ROOT, pasta);
+    const destino = path.join(dirAlvo, nomeArq);
 
-    fs.mkdirSync(path.dirname(destino), { recursive: true });
+    fs.mkdirSync(dirAlvo, { recursive: true });
 
     if (!fs.existsSync(destino)) {
-      const resp = await axios.get(abs(url), { responseType: 'arraybuffer' });
+      const resp = await axios.get(absUrl, {
+        responseType: 'arraybuffer',
+        timeout: 30000,
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120 Safari/537.36',
+          'Referer': baseUrl,
+          'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+        },
+        maxRedirects: 5,
+        validateStatus: s => s >= 200 && s < 400,
+      });
       fs.writeFileSync(destino, resp.data);
       console.log(`Imagem salva: ${destino}`);
     }
 
-    return `${localDomain}/${pasta}/${nomeArquivo}`;
+    // URL pública (mantendo seu formato)
+    return `${localDomain}/${pasta}/${nomeArq}`;
   } catch (err) {
-    console.error(`Erro ao baixar imagem ${url}:`, err.message);
-    return abs(url); // fallback para URL absoluta original
+    console.error(`Erro ao baixar imagem ${url}:`, err?.response?.status || err.message);
+    // fallback para não quebrar o JSON
+    return abs(url);
   }
 }
 
@@ -45,12 +66,12 @@ async function extrairBrasoesDaPaginaJogo(browser, detalheUrl) {
     const html = await page.content();
     const $d = cheerio.load(html);
 
-    // 1) Estrutura mais comum no site atual (vide prints)
+    // 1) Estrutura mais comum (pelo seu print)
     let imgs = $d('div.box_time img[alt], div.box_time img[title]')
       .map((_, el) => $d(el).attr('data-src') || $d(el).attr('src'))
       .get();
 
-    // 2) Fallbacks frequentes
+    // 2) Fallbacks possíveis
     if (imgs.length < 2) {
       imgs = $d('.all-scores-widget-team-container img, .team img, .team-logo img, img.team-logo')
         .map((_, el) => $d(el).attr('data-src') || $d(el).attr('src'))
@@ -83,7 +104,13 @@ export async function buscarJogos(dia = 'hoje') {
   try {
     browser = await puppeteer.launch({
       headless: 'new',
-      args: ['--no-sandbox', '--disable-setuid-sandbox', '--disable-dev-shm-usage', '--disable-gpu', '--single-process']
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--disable-dev-shm-usage',
+        '--disable-gpu',
+        '--single-process'
+      ]
     });
     const page = await browser.newPage();
     console.log(`Navegando para ${urlDoSite}...`);
@@ -118,8 +145,13 @@ export async function buscarJogos(dia = 'hoje') {
       const card = $(element);
 
       // campeonato
-      const campeonatoNome = card.find('div.all-scores-widget-competition-header-container-hora div.col-sm-8').text().trim();
-      const iconeCampeonatoSrc = card.find('div.all-scores-widget-competition-header-container-hora img').attr('src');
+      const campeonatoNome = card
+        .find('div.all-scores-widget-competition-header-container-hora div.col-sm-8')
+        .text()
+        .trim();
+      const iconeCampeonatoSrc = card
+        .find('div.all-scores-widget-competition-header-container-hora img')
+        .attr('src');
 
       // times/placar/horário
       const timeCasaElement = card.find('div.d-flex.justify-content-between').first();
@@ -143,7 +175,7 @@ export async function buscarJogos(dia = 'hoje') {
         placarFora = '';
       }
 
-      // coletar canais (sem await aqui)
+      // canais (coleta urls; download virá depois)
       const canais = [];
       card.find('div.bcmact').each((i, el) => {
         const nomeCanal = $(el).find('img').attr('alt');
@@ -153,7 +185,7 @@ export async function buscarJogos(dia = 'hoje') {
         }
       });
 
-      // NOVO: url de detalhes do jogo (para buscar brasões)
+      // URL da página do jogo (para pegar brasões)
       const detalheHref =
         card.find('a[href*="/jogo/"], a[href*="/partida/"], a[href]').attr('href') || '';
       const detalheUrl = abs(detalheHref);
@@ -177,8 +209,8 @@ export async function buscarJogos(dia = 'hoje') {
       }
     });
 
-    // Busca brasões abrindo a página do jogo (com limite de concorrência)
-    const CONC = 4;
+    // Busca brasões navegando para cada jogo (com limite de concorrência)
+    const CONC = 4; // ajuste conforme sua máquina (2 em low-RAM; 6–8 em server folgado)
     let idx = 0;
     while (idx < jogosEncontrados.length) {
       const slice = jogosEncontrados.slice(idx, idx + CONC);
@@ -188,12 +220,12 @@ export async function buscarJogos(dia = 'hoje') {
           j.partida.iconeCasa = iconeCasa;
           j.partida.iconeFora = iconeFora;
         }
-        delete j.detalheUrl; // não expõe na resposta final
+        delete j.detalheUrl; // limpa chave auxiliar da resposta
       }));
       idx += CONC;
     }
 
-    // Baixar e substituir imagens (mantido)
+    // Downloads e substituições pelas URLs públicas
     for (const jogo of jogosEncontrados) {
       if (jogo.campeonato.icone) jogo.campeonato.icone = await baixarImagem(jogo.campeonato.icone, 'countries');
       if (jogo.partida.iconeCasa) jogo.partida.iconeCasa = await baixarImagem(jogo.partida.iconeCasa, 'teams');
